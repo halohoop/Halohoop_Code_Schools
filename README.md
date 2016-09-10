@@ -4,7 +4,12 @@
 
 ### Version: 1.0.0
 
-  * For now,nothing; 
+  * For now,nothing;
+ 
+### Version: 1.0.1
+
+  * In eclipse,how to link jar and source folder,step in step;
+  * 在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码；
 
 ## License
 
