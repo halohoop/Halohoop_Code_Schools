@@ -11,6 +11,10 @@
   * In eclipse,how to link jar and source folder,step in step;
   * 在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码；
 
+### Version: 1.0.2
+
+  * 打开应用市场指定搜索某个应用；
+
 ## License
 
     Copyright 2016, Halohoop
