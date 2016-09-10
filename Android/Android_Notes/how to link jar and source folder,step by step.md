@@ -11,6 +11,7 @@
 
 ![Markdown](https://github.com/halohoop/Halohoop_Code_Schools/tree/android_notes/pics/03aafd9c-3e55-43d9-b442-7bd48a059450.png)
 
+
   * 首先我们在libs目录下，设置一个properties文件，
   * 文件名为：
 
