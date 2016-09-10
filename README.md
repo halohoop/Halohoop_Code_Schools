@@ -46,6 +46,10 @@
   * 添加新主题[Classes](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md)，主要收录一些常用的模板类
   * [自定义控件高效SurfaceView模板，保持模板不动，然后直接和普通控件在onDraw等方法开发就好了](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#001%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E9%AB%98%E6%95%88surfaceview%E6%A8%A1%E6%9D%BF%E4%BF%9D%E6%8C%81%E6%A8%A1%E6%9D%BF%E4%B8%8D%E5%8A%A8%E7%84%B6%E5%90%8E%E7%9B%B4%E6%8E%A5%E5%92%8C%E6%99%AE%E9%80%9A%E6%8E%A7%E4%BB%B6%E5%9C%A8ondraw%E7%AD%89%E6%96%B9%E6%B3%95%E5%BC%80%E5%8F%91%E5%B0%B1%E5%A5%BD%E4%BA%86)
 
+### Version: 1.0.2
+
+  * 打开应用市场指定搜索某个应用；
+
 ## License
 
     Copyright 2016, Halohoop
