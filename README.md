@@ -21,7 +21,7 @@
 
 ### Version: 1.0.4
 
-  * add Android_Studio_Shortcut_Keymap_Smmary;
+  * [add Android Studio Shortcut Keymap Smmary](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%80%BB%E7%BB%93);
 
 ## License
 
