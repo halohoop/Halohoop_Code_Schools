@@ -8,8 +8,12 @@
  
 ### Version: 1.0.1
 
-  * In eclipse,how to link jar and source folder,step in step;
-  * 在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码；
+  * [In eclipse,how to link jar and source folder,step in step](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/how%20to%20link%20jar%20and%20source%20folder%2Cstep%20by%20step.md#in-eclipsehow-to-link-jar-and-source-folderstep-in-step);
+  * [在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/how%20to%20link%20jar%20and%20source%20folder%2Cstep%20by%20step.md#in-eclipsehow-to-link-jar-and-source-folderstep-in-step)；
+
+### Version: 1.0.2
+
+  * [打开应用市场指定搜索某个应用](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#%E6%89%93%E5%BC%80%E5%BA%94%E7%94%A8%E5%B8%82%E5%9C%BA%E6%8C%87%E5%AE%9A%E6%90%9C%E7%B4%A2%E6%9F%90%E4%B8%AA%E5%BA%94%E7%94%A8)；
 
 ## License
 
