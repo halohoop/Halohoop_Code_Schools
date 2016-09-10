@@ -6,7 +6,7 @@
 
 ### Version: 1.0.3
 
-  * 设置屏幕亮度到最亮;
+  * [设置屏幕亮度到最亮](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#002%E8%AE%BE%E7%BD%AE%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E5%88%B0%E6%9C%80%E4%BA%AE);
  
 ## 001.打开应用市场指定搜索某个应用
 
@@ -30,7 +30,7 @@
         return true;
     }
 
-## 002.设置屏幕亮度到最亮
+## 002.设置屏幕亮度到最亮,扫码的时候使用
 	WindowManager.LayoutParams lp = getWindow().getAttributes();//getWindow是activity的方法
 	lp.screenBrightness = 1.0f;
 	getWindow().setAttributes(lp);
