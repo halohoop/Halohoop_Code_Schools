@@ -26,7 +26,7 @@
   * **记住如果是单斜杠，要换成双斜杠哦！**
 
 
-  * 又如v4包的：
+  * 又如v4包的**android-support-v4.jar.properties**：
 
     src=D:\\\eclipse-java-mars-1-win32-x86_64\\\support_source\\\support\\\v4\\\java 
 
