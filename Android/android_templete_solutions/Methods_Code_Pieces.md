@@ -33,3 +33,12 @@
 	} else {
 		//blah blah blah
 	}
+
+## 004.将十六进制字符串颜色代码（如：#ff0000）转换为int颜色值
+
+	public int parseColor(String colorHex){
+		//dont forget to try/catch
+		return android.graphics.Color.parseColor(colorHex);
+	}	
+
+	int red = parseColor("#ff0000");
