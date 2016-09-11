@@ -1,12 +1,4 @@
 # Halohoop_Code_Schools
-
-### Version: 1.0.2
-
-  * [打开应用市场指定搜索某个应用](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#%E6%89%93%E5%BC%80%E5%BA%94%E7%94%A8%E5%B8%82%E5%9C%BA%E6%8C%87%E5%AE%9A%E6%90%9C%E7%B4%A2%E6%9F%90%E4%B8%AA%E5%BA%94%E7%94%A8)；
-
-### Version: 1.0.3
-
-  * [设置屏幕亮度到最亮](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#002%E8%AE%BE%E7%BD%AE%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E5%88%B0%E6%9C%80%E4%BA%AE);
  
 ## 001.打开应用市场指定搜索某个应用
 
@@ -34,3 +26,10 @@
 	WindowManager.LayoutParams lp = getWindow().getAttributes();//getWindow是activity的方法
 	lp.screenBrightness = 1.0f;
 	getWindow().setAttributes(lp);
+
+## 003.判断版本代码块
+	if (Build.VERSION.SDK_INT/*当前手机的版本*/ >= Build.VERSION_CODES.JELLY_BEAN/*常量版本*/) {
+		//blah blah blah
+	} else {
+		//blah blah blah
+	}
