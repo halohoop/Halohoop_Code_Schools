@@ -23,6 +23,10 @@
 
   * [add Android Studio Shortcut Keymap Smmary](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%80%BB%E7%BB%93);
 
+## Version: 1.0.5
+
+  * [判断版本代码块](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#003%E5%88%A4%E6%96%AD%E7%89%88%E6%9C%AC%E4%BB%A3%E7%A0%81%E5%9D%97)
+
 ## License
 
     Copyright 2016, Halohoop
