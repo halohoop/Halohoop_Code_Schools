@@ -31,6 +31,10 @@
 
   * [将十六进制字符串颜色代码（如：#ff0000）转换为int颜色值](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#004%E5%B0%86%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%A2%9C%E8%89%B2%E4%BB%A3%E7%A0%81%E5%A6%82ff0000%E8%BD%AC%E6%8D%A2%E4%B8%BAint%E9%A2%9C%E8%89%B2%E5%80%BC)
 
+## Version: 1.0.7
+
+  * [获取屏幕的宽高，兼容新旧Api](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#005%E8%8E%B7%E5%8F%96%E5%B1%8F%E5%B9%95%E7%9A%84%E5%AE%BD%E9%AB%98%E5%85%BC%E5%AE%B9%E6%96%B0%E6%97%A7api)
+
 ## License
 
     Copyright 2016, Halohoop
