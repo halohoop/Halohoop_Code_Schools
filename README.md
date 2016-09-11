@@ -23,6 +23,10 @@
 
   * [add Android Studio Shortcut Keymap Smmary](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%80%BB%E7%BB%93);
 
+### Version: 1.0.5
+
+  * [add Android KeyCode Summary](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_KeyCode.md#android-keycode-summary);
+
 ## License
 
     Copyright 2016, Halohoop
