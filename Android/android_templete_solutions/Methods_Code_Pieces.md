@@ -42,3 +42,26 @@
 	}	
 
 	int red = parseColor("#ff0000");
+
+## 005.获取屏幕的宽高，兼容新旧Api
+
+    @SuppressLint("NewApi")//getSize(方法)需要 api13才能使用
+    /**
+     * 通过返回值point拿宽高
+     * point.x 屏幕的宽
+     * point.y 屏幕的高
+     */
+    public static Point getScreenSize(Context context) {
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+        Point out = new Point();
+        //Build.VERSION_CODES.HONEYCOMB_MR2 → 13
+        if (Build.VERSION.SDK_INT >= 13) {
+            display.getSize(out);
+        } else {
+            int width = display.getWidth();
+            int height = display.getHeight();
+            out.set(width, height);
+        }
+        return out;
+    }
