@@ -2,6 +2,16 @@
 
 ## Android KeyCode列表
 
+## 调用这些常量的方法
+### 例如：判断是拨号键
+    //导入相关包
+    import android.view.KeyEvent;
+
+    if(intValue == KeyEvent.KEYCODE_CALL) {
+        // blah blah blah
+    }
+    
+
 ### 电话键
 
  
@@ -19,7 +29,7 @@ KEYCODE_MUTE    话筒静音键   91
 KEYCODE_VOLUME_MUTE     扬声器静音键  164
 KEYCODE_VOLUME_UP   音量增加键   24
 KEYCODE_VOLUME_DOWN     音量减小键   25
-##
+## 
  
 ### 控制键
 
@@ -45,7 +55,7 @@ KEYCODE_BREAK   Break/Pause键    121
 KEYCODE_SCROLL_LOCK     滚动锁定键   116
 KEYCODE_ZOOM_IN     放大键     168
 KEYCODE_ZOOM_OUT    缩小键     169
-##
+## 
  
 ### 组合键
 
@@ -56,7 +66,7 @@ KEYCODE_CTRL_LEFT   Control+Left
 KEYCODE_CTRL_RIGHT  Control+Right
 KEYCODE_SHIFT_LEFT  Shift+Left
 KEYCODE_SHIFT_RIGHT     Shift+Right
-##
+## 
  
 ### 基本
  
@@ -96,7 +106,7 @@ KEYCODE_W   按键'W'   51
 KEYCODE_X   按键'X'   52
 KEYCODE_Y   按键'Y'   53
 KEYCODE_Z   按键'Z'   54
-##
+## 
  
 ### 符号
 
@@ -117,7 +127,7 @@ KEYCODE_RIGHT_BRACKET   按键']'
 KEYCODE_SEMICOLON   按键';'
 KEYCODE_GRAVE   按键'`'
 KEYCODE_SPACE   空格键
-##
+## 
  
 ### 小键盘
 
@@ -142,7 +152,7 @@ KEYCODE_NUMPAD_DOT  小键盘按键'.'
 KEYCODE_NUMPAD_LEFT_PAREN   小键盘按键'('
 KEYCODE_NUMPAD_RIGHT_PAREN  小键盘按键')'
 KEYCODE_NUMPAD_ENTER    小键盘按键回车
-##
+## 
  
 ### 功能键
 
@@ -159,7 +169,7 @@ KEYCODE_F9  按键F9
 KEYCODE_F10     按键F10
 KEYCODE_F11     按键F11
 KEYCODE_F12     按键F12
-##
+## 
  
 ### 多媒体键
 
@@ -175,7 +185,7 @@ KEYCODE_MEDIA_PREVIOUS  多媒体键 上一首
 KEYCODE_MEDIA_CLOSE     多媒体键 关闭
 KEYCODE_MEDIA_EJECT     多媒体键 弹出
 KEYCODE_MEDIA_RECORD    多媒体键 录音
-##
+## 
  
 ### 手柄按键
 
@@ -211,7 +221,7 @@ KEYCODE_BUTTON_SELECT   游戏手柄按钮 Select
 KEYCODE_BUTTON_START    游戏手柄按钮 Start
 KEYCODE_BUTTON_THUMBL   Left Thumb Button
 KEYCODE_BUTTON_THUMBR   Right Thumb Button
-##
+## 
  
 ### 待查
 
@@ -220,7 +230,6 @@ KEYCODE_BUTTON_THUMBR   Right Thumb Button
  
 
 KEYCODE_NUM
-##
 
 按键Number modifier
 
@@ -409,4 +418,4 @@ KEYCODE_UNKNOWN
 
 未知按键
 
-
+## 
