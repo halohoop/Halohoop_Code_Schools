@@ -65,3 +65,23 @@
         }
         return out;
     }
+
+## 006.bitmap转为byte数组
+
+    /**
+     * bitmap转为byte数组
+     * @param bitmap
+     * @return
+     */
+    public byte[] bitmap2ByteArray(Bitmap bitmap) {
+        ByteArrayOutputStream output = new ByteArrayOutputStream();//初始化一个流对象
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, output);//把bitmap100%高质量压缩 到 output对象里
+        bitmap.recycle();//自由选择是否进行回收
+        byte[] result = output.toByteArray();//转换成功了
+        try {
+            output.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
