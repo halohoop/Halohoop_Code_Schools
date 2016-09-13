@@ -35,6 +35,10 @@
 
   * [获取屏幕的宽高，兼容新旧Api](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#005%E8%8E%B7%E5%8F%96%E5%B1%8F%E5%B9%95%E7%9A%84%E5%AE%BD%E9%AB%98%E5%85%BC%E5%AE%B9%E6%96%B0%E6%97%A7api)
 
+## Version: 1.0.7
+
+  * [bitmap转为byte数组](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#006bitmap%E8%BD%AC%E4%B8%BAbyte%E6%95%B0%E7%BB%84)
+
 ## License
 
     Copyright 2016, Halohoop
