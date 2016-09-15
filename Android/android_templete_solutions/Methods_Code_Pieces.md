@@ -85,3 +85,43 @@
         }
         return result;
     }
+
+## 007.Bitmap图片拼接
+
+	/**
+	* 横向拼接
+	* <功能详细描述>
+	* @param first
+	* @param second
+	* @return 
+	*/
+	private Bitmap add2Bitmap(Bitmap first, Bitmap second) {
+		int width = first.getWidth() + second.getWidth();
+		int height = Math.max(first.getHeight(), second.getHeight());
+		Bitmap result = Bitmap.createBitmap(width, height, Config.ARGB_8888);
+		Canvas canvas = new Canvas(result);
+		canvas.drawBitmap(first, 0, 0, null);
+		canvas.drawBitmap(second, first.getWidth(), 0, null);
+		return result;
+	
+	}
+	
+	
+	/**
+	* 纵向拼接
+	* <功能详细描述>
+	* @param first
+	* @param second
+	* @return 
+	*/
+	private Bitmap addBitmap(Bitmap first, Bitmap second) {
+		int width = Math.max(first.getWidth(),second.getWidth());
+		int height = first.getHeight() + second.getHeight();
+		Bitmap result = Bitmap.createBitmap(width, height, Config.ARGB_8888);
+		Canvas canvas = new Canvas(result);
+		canvas.drawBitmap(first, 0, 0, null);
+		canvas.drawBitmap(second, 0, first.getHeight(), null);
+		return result;
+	}
+
+### from [http://blog.csdn.net/ajun495175289/article/details/18091683](http://blog.csdn.net/ajun495175289/article/details/18091683)
