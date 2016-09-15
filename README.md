@@ -39,6 +39,9 @@
 
   * [bitmap转为byte数组](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#006bitmap%E8%BD%AC%E4%B8%BAbyte%E6%95%B0%E7%BB%84)
 
+## Version: 1.0.9
+  * [Bitmap图片拼接](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#007bitmap%E5%9B%BE%E7%89%87%E6%8B%BC%E6%8E%A5)
+
 ## License
 
     Copyright 2016, Halohoop
