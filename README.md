@@ -50,6 +50,10 @@
 
   * 打开应用市场指定搜索某个应用；
 
+### Version: 1.0.2
+
+  * 打开应用市场指定搜索某个应用；
+
 ## License
 
     Copyright 2016, Halohoop
