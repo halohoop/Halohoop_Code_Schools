@@ -1,31 +1,194 @@
-# In eclipse,how to link jar and source folder,step in step
+# how to use New Camera2 with TextureView
 
-# Changelog 
- 
-### Version: 1.0.1
+## MainActivity.java
 
-  * In eclipse,how to link jar and source folder,step by step;
-  * 在eclipse中如何连接jar包和原码，使得码代码的时候直接可以ctrl点进去看到原码；
+	public class MainActivity extends AppCompatActivity
+        implements TextureView.SurfaceTextureListener {
 
-### 步骤
-
-![Markdown](https://github.com/halohoop/Halohoop_Code_Schools/pics/03aafd9c-3e55-43d9-b442-7bd48a059450.png)
-
-  * 首先我们在libs目录下，设置一个properties文件，
-  * 文件名为：
-
-    **jar包的完整名字.properties**
-
-  * 如：**android-support-v7-recyclerview.jar.properties**
-  * android-support-v7-recyclerview.jar.properties文件的内容如下：
-
-    src=D:\\\eclipse-java-mars-1-win32-x86_64\\\support_source\\\support 
-
+	    private TextureView mPreviewView;
+	    private HandlerThread mThreadHandler;
+	    private Handler mHandler;
+	    private CaptureRequest.Builder mPreviewBuilder;
 	
-  * **记住如果是单斜杠，要换成双斜杠哦！**
-
-
-  * 又如v4包的：
-
-    src=D:\\\eclipse-java-mars-1-win32-x86_64\\\support_source\\\support\\\v4\\\java 
+	    @Override
+	    protected void onCreate(Bundle savedInstanceState) {
+	        super.onCreate(savedInstanceState);
+	        setContentView(R.layout.activity_main);
+	        mPreviewView = (TextureView) findViewById(R.id.textureview);
+	        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) !=
+	                PackageManager.PERMISSION_GRANTED) {
+	
+	            ActivityCompat.requestPermissions(this,
+	                    new String[]{Manifest.permission.CAMERA}, 101);
+	            return;
+	        }
+	    }
+	
+	    public void btn(View v) {
+	        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) !=
+	                PackageManager.PERMISSION_GRANTED) {
+	
+	            ActivityCompat.requestPermissions(this,
+	                    new String[]{Manifest.permission.CAMERA}, 101);
+	            return;
+	        }
+	        mThreadHandler = new HandlerThread("CAMERA2");
+	        mThreadHandler.start();
+	        mHandler = new Handler(mThreadHandler.getLooper());
+	
+	        mPreviewView.setSurfaceTextureListener(this);
+	    }
+	
+	    @Override
+	    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+	        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+	        switch (requestCode) {
+	            case 101:
+	                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+	                    Toast.makeText(this, "yes", Toast.LENGTH_SHORT).show();
+	                } else {
+	                    Toast.makeText(this, "no", Toast.LENGTH_SHORT).show();
+	                }
+	                break;
+	        }
+	    }
+	
+	    //TextureView-----------------
+	    @Override
+	    public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
+	        CameraManager cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
+	        try {
+	            String[] CameraIdList = cameraManager.getCameraIdList();
+	            //获取可用相机设备列表
+	            CameraCharacteristics characteristics = cameraManager.getCameraCharacteristics
+	                    (CameraIdList[0]);
+	            //在这里可以通过CameraCharacteristics设置相机的功能,当然必须检查是否支持
+		//            characteristics.get(CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL);
+	            //就像这样
+	            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) !=
+	                    PackageManager.PERMISSION_GRANTED) {
+	
+	                ActivityCompat.requestPermissions(this,
+	                        new String[]{Manifest.permission.CAMERA}, 101);
+	                return;
+	            }
+	            cameraManager.openCamera(CameraIdList[0], mStateCallback, mHandler);
+	        } catch (CameraAccessException e) {
+	            e.printStackTrace();
+	        }
+	    }
+	
+	    @Override
+	    public void onSurfaceTextureSizeChanged(SurfaceTexture surface, int width, int height) {
+	
+	    }
+	
+	    @Override
+	    public boolean onSurfaceTextureDestroyed(SurfaceTexture surface) {
+	        return false;
+	    }
+	
+	    @Override
+	    public void onSurfaceTextureUpdated(SurfaceTexture surface) {
+	
+	    }
+	    //TextureView-----------------
+	
+	    //CameraDevice.StateCallback-----------------
+	    CameraDevice.StateCallback mStateCallback = new CameraDevice.StateCallback() {
+	        @Override
+	        public void onOpened(CameraDevice camera) {
+	            try {
+	                startPreview(camera);
+	            } catch (CameraAccessException e) {
+	                e.printStackTrace();
+	            }
+	        }
+	
+	        @Override
+	        public void onDisconnected(CameraDevice camera) {
+	
+	        }
+	
+	        @Override
+	        public void onError(CameraDevice camera, int error) {
+	
+	        }
+	    };
+	    //CameraDevice.StateCallback-----------------
+	
+	    //CameraCaptureSession.StateCallback-----------------
+	    CameraCaptureSession.StateCallback mStateCallback2 = new CameraCaptureSession.StateCallback() {
+	
+	        @Override
+	        public void onConfigured(CameraCaptureSession session) {
+	            try {
+	                session.setRepeatingRequest(mPreviewBuilder.build(), mCaptureCallback, mHandler);
+	            } catch (CameraAccessException e) {
+	                e.printStackTrace();
+	            }
+	        }
+	
+	        @Override
+	        public void onConfigureFailed(CameraCaptureSession session) {
+	
+	        }
+	    };
+	    //CameraCaptureSession.StateCallback-----------------
+	
+	    // CaptureCallback-----------------
+	    CameraCaptureSession.CaptureCallback mCaptureCallback = new CameraCaptureSession
+	            .CaptureCallback() {
+	        @Override
+	        public void onCaptureSequenceAborted(CameraCaptureSession session, int sequenceId) {
+	            super.onCaptureSequenceAborted(session, sequenceId);
+	        }
+	
+	        @Override
+	        public void onCaptureSequenceCompleted(CameraCaptureSession session, int sequenceId, long
+	                frameNumber) {
+	            super.onCaptureSequenceCompleted(session, sequenceId, frameNumber);
+	        }
+	
+	        @Override
+	        public void onCaptureFailed(CameraCaptureSession session, CaptureRequest request,
+	                                    CaptureFailure failure) {
+	            super.onCaptureFailed(session, request, failure);
+	        }
+	
+	        @Override
+	        public void onCaptureCompleted(CameraCaptureSession session, CaptureRequest request,
+	                                       TotalCaptureResult result) {
+	            super.onCaptureCompleted(session, request, result);
+	        }
+	
+	        @Override
+	        public void onCaptureProgressed(CameraCaptureSession session, CaptureRequest request,
+	                                        CaptureResult partialResult) {
+	            super.onCaptureProgressed(session, request, partialResult);
+	            Log.i("huanghaiqi", "huanghaiqi");
+	        }
+	
+	        @Override
+	        public void onCaptureStarted(CameraCaptureSession session, CaptureRequest request, long
+	                timestamp, long frameNumber) {
+	            super.onCaptureStarted(session, request, timestamp, frameNumber);
+	        }
+	    };
+	    //CaptureCallback-----------------
+	
+	    private void startPreview(CameraDevice camera) throws CameraAccessException {
+	        SurfaceTexture texture = mPreviewView.getSurfaceTexture();
+	        texture.setDefaultBufferSize(mPreviewView.getWidth(), mPreviewView.getHeight());
+	        Surface surface = new Surface(texture);
+	        try {
+	            mPreviewBuilder = camera.createCaptureRequest(CameraDevice
+	                    .TEMPLATE_STILL_CAPTURE);
+	        } catch (CameraAccessException e) {
+	            e.printStackTrace();
+	        }
+	        mPreviewBuilder.addTarget(surface);
+	        camera.createCaptureSession(Arrays.asList(surface), mStateCallback2, mHandler);
+	    }
+	}
 
