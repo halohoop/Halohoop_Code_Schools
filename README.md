@@ -52,6 +52,9 @@
 ## Version 1.1.2
   * [模板方法安卓传感器常用指南针旋转角度转换方法，将-180至+180，转换为0-359](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E5%AE%89%E5%8D%93%E4%BC%A0%E6%84%9F%E5%99%A8%E5%B8%B8%E7%94%A8%E6%8C%87%E5%8D%97%E9%92%88%E6%97%8B%E8%BD%AC%E8%A7%92%E5%BA%A6%E8%BD%AC%E6%8D%A2%E6%96%B9%E6%B3%95%E5%B0%86-180%E8%87%B3180%E8%BD%AC%E6%8D%A2%E4%B8%BA0-359)
 
+## Version 1.1.3
+  * [Open Activity in a Service](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#008open-activity-in-a-service)
+
 ## License
 
     Copyright 2016, Halohoop
