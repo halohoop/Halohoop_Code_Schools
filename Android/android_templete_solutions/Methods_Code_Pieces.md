@@ -125,3 +125,11 @@
 	}
 
 ### from [http://blog.csdn.net/ajun495175289/article/details/18091683](http://blog.csdn.net/ajun495175289/article/details/18091683)
+
+## 008.Open Activity in a Service
+
+	Intent dialogIntent = new Intent(getBaseContext(), YourActivity.class);   
+    dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);   
+    getApplication().startActivity(dialogIntent);   
+
+### from [http://blog.csdn.net/aminfo/article/details/7895426](http://blog.csdn.net/aminfo/article/details/7895426)
