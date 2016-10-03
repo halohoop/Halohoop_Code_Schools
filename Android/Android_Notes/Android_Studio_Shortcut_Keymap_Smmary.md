@@ -25,18 +25,21 @@
 
   * Ctrl+Shift+↑   move line up
   * Ctrl+Shift+↓   move line down
-  *示例：
-      public vo'cusor is here'id a(){
-        //blah blah blah
-      }
-      public void b(){
-        //blah blah blah
-      }
+  * 示例：
+
+        public vo'cusor is here'id a(){
+		//blah blah blah
+	}
+	public void b(){
+		//blah blah blah
+	}
+
     with cursor in method a line,then press Ctrl+Shift+↓ ,
     u will get the result below:
-      public void b(){
-        //blah blah blah
-      }
-      public vo'cusor is here'id a(){
-        //blah blah blah
-      }
+
+	public void b(){
+		//blah blah blah
+	}
+	public vo'cusor is here'id a(){
+		//blah blah blah
+	}
