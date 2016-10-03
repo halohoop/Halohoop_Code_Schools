@@ -1,8 +1,8 @@
 # Halohoop_Code_Schools
- 
+
 ## 001.打开应用市场指定搜索某个应用
 
-    
+
 	/**
 	 * 使用隐式意图打开手机中原有应用市场
 	 * 并且搜索传进来的包名对应的软件
@@ -39,7 +39,7 @@
 	public int parseColor(String colorHex){
 		//dont forget to try/catch
 		return android.graphics.Color.parseColor(colorHex);
-	}	
+	}
 
 	int red = parseColor("#ff0000");
 
@@ -93,7 +93,7 @@
 	* <功能详细描述>
 	* @param first
 	* @param second
-	* @return 
+	* @return
 	*/
 	private Bitmap add2Bitmap(Bitmap first, Bitmap second) {
 		int width = first.getWidth() + second.getWidth();
@@ -103,16 +103,16 @@
 		canvas.drawBitmap(first, 0, 0, null);
 		canvas.drawBitmap(second, first.getWidth(), 0, null);
 		return result;
-	
+
 	}
-	
-	
+
+
 	/**
 	* 纵向拼接
 	* <功能详细描述>
 	* @param first
 	* @param second
-	* @return 
+	* @return
 	*/
 	private Bitmap addBitmap(Bitmap first, Bitmap second) {
 		int width = Math.max(first.getWidth(),second.getWidth());
@@ -133,3 +133,47 @@
     getApplication().startActivity(dialogIntent);   
 
 ### from [http://blog.csdn.net/aminfo/article/details/7895426](http://blog.csdn.net/aminfo/article/details/7895426)
+
+## 009.在view中监听home键、菜单键和返回键，构建回调
+
+  /**
+   * 监听home键和menu键
+   * Receiver for listening home & recent key
+   * 使用广播接受者的形式
+   */
+  class HomeKeyEventReceiver extends BroadcastReceiver {
+
+      String SYSTEM_REASON = "reason";
+
+      String SYSTEM_HOME_KEY = "homekey";
+
+      String SYSTEM_DIALOG_REASON_RECENT_APPS = "recentapps";
+
+      @Override
+      public void onReceive(Context context, Intent intent) {
+          String action = intent.getAction();
+          if (action.equals(Intent.ACTION_CLOSE_SYSTEM_DIALOGS)) {
+              String reason = intent.getStringExtra(SYSTEM_REASON);
+              if (TextUtils.equals(reason, SYSTEM_HOME_KEY)) {
+                  yourCallback.onHome();
+              } else if(TextUtils.equals(reason, SYSTEM_DIALOG_REASON_RECENT_APPS)) {
+                  yourCallback.onMenu();
+              }
+          }
+      }
+  }
+
+  /**
+   * 监听返回键
+   * Listening to the back key press
+   * the method 'onKeyUp' is Override from View
+   */
+  @Override
+  public boolean onKeyUp(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            yourCallback.back();
+            return true;
+        }
+        //others let it go
+        return super.onKeyUp(keyCode, event);
+  }
