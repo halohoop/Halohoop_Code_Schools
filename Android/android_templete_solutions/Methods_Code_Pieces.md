@@ -136,44 +136,44 @@
 
 ## 009.在view中监听home键、菜单键和返回键，构建回调
 
-  /**
-   * 监听home键和menu键
-   * Receiver for listening home & recent key
-   * 使用广播接受者的形式
-   */
-  class HomeKeyEventReceiver extends BroadcastReceiver {
+	/**
+	 * 监听home键和menu键
+	 * Receiver for listening home & recent key
+	 * 使用广播接受者的形式
+	 */
+	class HomeKeyEventReceiver extends BroadcastReceiver {
 
-      String SYSTEM_REASON = "reason";
+	      String SYSTEM_REASON = "reason";
 
-      String SYSTEM_HOME_KEY = "homekey";
+	      String SYSTEM_HOME_KEY = "homekey";
 
-      String SYSTEM_DIALOG_REASON_RECENT_APPS = "recentapps";
+	      String SYSTEM_DIALOG_REASON_RECENT_APPS = "recentapps";
 
-      @Override
-      public void onReceive(Context context, Intent intent) {
-          String action = intent.getAction();
-          if (action.equals(Intent.ACTION_CLOSE_SYSTEM_DIALOGS)) {
-              String reason = intent.getStringExtra(SYSTEM_REASON);
-              if (TextUtils.equals(reason, SYSTEM_HOME_KEY)) {
-                  yourCallback.onHome();
-              } else if(TextUtils.equals(reason, SYSTEM_DIALOG_REASON_RECENT_APPS)) {
-                  yourCallback.onMenu();
-              }
-          }
-      }
-  }
+	      @Override
+	      public void onReceive(Context context, Intent intent) {
+		  String action = intent.getAction();
+		  if (action.equals(Intent.ACTION_CLOSE_SYSTEM_DIALOGS)) {
+		      String reason = intent.getStringExtra(SYSTEM_REASON);
+		      if (TextUtils.equals(reason, SYSTEM_HOME_KEY)) {
+			  yourCallback.onHome();
+		      } else if(TextUtils.equals(reason, SYSTEM_DIALOG_REASON_RECENT_APPS)) {
+			  yourCallback.onMenu();
+		      }
+		  }
+	      }
+ 	 }
 
-  /**
-   * 监听返回键
-   * Listening to the back key press
-   * the method 'onKeyUp' is Override from View
-   */
-  @Override
-  public boolean onKeyUp(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-            yourCallback.back();
-            return true;
-        }
-        //others let it go
-        return super.onKeyUp(keyCode, event);
-  }
+	  /**
+	   * 监听返回键
+	   * Listening to the back key press
+	   * the method 'onKeyUp' is Override from View
+	   */
+	  @Override
+	  public boolean onKeyUp(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+		    yourCallback.back();
+		    return true;
+		}
+		//others let it go
+		return super.onKeyUp(keyCode, event);
+	  }
