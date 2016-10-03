@@ -30,6 +30,7 @@
         public vo'cusor is here'id a(){
 		//blah blah blah
 	}
+
 	public void b(){
 		//blah blah blah
 	}
@@ -40,6 +41,7 @@
 	public void b(){
 		//blah blah blah
 	}
+
 	public vo'cusor is here'id a(){
 		//blah blah blah
 	}
