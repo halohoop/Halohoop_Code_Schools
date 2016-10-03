@@ -16,5 +16,27 @@
 	Bean[] beans = new Bean[10];
 	beans.for回车；
 
+## 002.将光标所在代码行向上向下移动 move line up or down
 
+  * Alt+Shift+↑   move line up
+  * Alt+Shift+↓   move line down
 
+## 003.【Super Useful】将光标所在代码行所在的代码组向上向下移动 move statement up or down
+
+  * Ctrl+Shift+↑   move line up
+  * Ctrl+Shift+↓   move line down
+  *示例：
+      public vo'cusor is here'id a(){
+        //blah blah blah
+      }
+      public void b(){
+        //blah blah blah
+      }
+    with cursor in method a line,then press Ctrl+Shift+↓ ,
+    u will get the result below:
+      public void b(){
+        //blah blah blah
+      }
+      public vo'cusor is here'id a(){
+        //blah blah blah
+      }
