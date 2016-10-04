@@ -61,6 +61,7 @@
 
 ## Version 1.2.1
   * [在view中监听home键、菜单键和返回键，构建回调](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#009%E5%9C%A8view%E4%B8%AD%E7%9B%91%E5%90%AChome%E9%94%AE%E8%8F%9C%E5%8D%95%E9%94%AE%E5%92%8C%E8%BF%94%E5%9B%9E%E9%94%AE%E6%9E%84%E5%BB%BA%E5%9B%9E%E8%B0%83)
+  ### 可用于忘WindowManager中添加view之后的监听操作；
 
 ## Version 1.2.2
   * [将光标所在代码行向上向下移动 move line up or down](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#002%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-line-up-or-down)
