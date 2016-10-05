@@ -67,6 +67,9 @@
   * [将光标所在代码行向上向下移动 move line up or down](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#002%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-line-up-or-down)
   * [【Super Useful】将光标所在代码行所在的代码组向上向下移动 move statement up or down](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#003super-useful%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%89%80%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%BB%84%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-statement-up-or-down)
 
+## Version 1.2.3
+  * [Android 获取View在屏幕中的位置](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#010android-%E8%8E%B7%E5%8F%96view%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE)
+
 ## License
 
     Copyright 2016, Halohoop
