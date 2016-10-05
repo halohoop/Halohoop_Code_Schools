@@ -177,3 +177,48 @@
 		//others let it go
 		return super.onKeyUp(keyCode, event);
 	  }
+
+## 010.Android 获取View在屏幕中的位置
+from：(http://blog.csdn.net/lonely_fireworks/article/details/7849643)[http://blog.csdn.net/lonely_fireworks/article/details/7849643]
+Android里面提供了一些方法可以获取View在屏幕中的位置。
+
+getLocationOnScreen ，计算该视图在全局坐标系中的x，y值，获取在当前屏幕内的绝对坐标（该值从屏幕顶端算起，包括了通知栏高度）。
+
+getLocationInWindow ，计算该视图在它所在的widnow的坐标x，y值。
+
+getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布局里的坐标。
+
+注意：如果在Activity的OnCreate()事件输出那些参数，是全为0，要等UI控件都加载完了才能获取到这些数据。
+
+		button2.setOnClickListener(new OnClickListener() {  
+
+				@Override  
+				public void onClick(View v) {  
+						int[] location = new int[2];  
+						v.getLocationOnScreen(location);  
+						x = location[0];  
+						y = location[1];  
+						Log.d("test", "Screenx--->" + x + "  " + "Screeny--->" + y);  
+						v.getLocationInWindow(location);  
+						x = location[0];  
+						y = location[1];  
+						Log.d("test", "Window--->" + x + "  " + "Window--->" + y);  
+									Log.d("test", "left:" + v.getLeft());  
+									Log.d("test", "right:" + v.getRight());  
+									Log.d("test", "Top:" + v.getTop());  
+									Log.d("test", "Bottom:" + v.getBottom());  
+									Log.d("test", "Width:"+v.getWidth());  
+									Log.d("test", "Height:"+v.getHeight());  
+				}  
+});
+
+输出结果
+
+08-09 23:57:10.883: D/test(4723): Screenx--->0  Screeny--->148
+08-09 23:57:10.922: D/test(4723): Window--->0  Window--->148
+08-09 23:57:10.922: D/test(4723): left:0
+08-09 23:57:10.922: D/test(4723): right:480
+08-09 23:57:10.922: D/test(4723): Top:72
+08-09 23:57:10.922: D/test(4723): Bottom:144
+08-09 23:57:10.922: D/test(4723): Width:480
+08-09 23:57:10.922: D/test(4723): Height:72
