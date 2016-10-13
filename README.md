@@ -73,6 +73,9 @@
 ## Version 1.2.4
   * [WindowManager.LayoutParams.type属性](https://github.com/halohoop/Halohoop_Code_Schools/commit/5a7dffe69add56c11c8bc18b8a89e5ed652128b6)
 
+## Version 1.2.5
+  * [add custom dialog templete class](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
+
 ## License
 
     Copyright 2016, Halohoop
