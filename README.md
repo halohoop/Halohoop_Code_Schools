@@ -70,6 +70,9 @@
 ## Version 1.2.3
   * [Android 获取View在屏幕中的位置](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#010android-%E8%8E%B7%E5%8F%96view%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE)
 
+## Version 1.2.4
+  * [WindowManager.LayoutParams.type属性](https://github.com/halohoop/Halohoop_Code_Schools/commit/5a7dffe69add56c11c8bc18b8a89e5ed652128b6)
+
 ## License
 
     Copyright 2016, Halohoop
