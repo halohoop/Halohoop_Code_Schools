@@ -410,3 +410,13 @@ Systemwindows：
 
       系统窗口结束。
       public static final int LAST_SYSTEM_WINDOW     = 2999;
+
+记得在6.0的系统运行时权限的声明和申请哦：
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+	<uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+ 
+ 
+	if (!Settings.canDrawOverlays(this)) {
+            Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
+            startActivity(intent);
+        }
