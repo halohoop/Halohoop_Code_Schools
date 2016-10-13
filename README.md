@@ -1,11 +1,11 @@
 # Halohoop_Code_Schools
 
-# Changelog 
+# Changelog
 
 ### Version: 1.0.0
 
   * For now,nothing;
- 
+
 ### Version: 1.0.1
 
   * [In eclipse,how to link jar and source folder,step in step](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/how%20to%20link%20jar%20and%20source%20folder%2Cstep%20by%20step.md#in-eclipsehow-to-link-jar-and-source-folderstep-in-step);
@@ -60,6 +60,19 @@
   * [Git技巧：将自己本地的修改暂存到栈中，然后再pull，然后再从栈中取出合并](https://github.com/halohoop/Halohoop_Code_Schools/blob/git_notes/Git/Git_Notes/Git_Notes.md#%E6%8A%80%E5%B7%A7%E5%B0%86%E8%87%AA%E5%B7%B1%E6%9C%AC%E5%9C%B0%E7%9A%84%E4%BF%AE%E6%94%B9%E6%9A%82%E5%AD%98%E5%88%B0%E6%A0%88%E4%B8%AD%E7%84%B6%E5%90%8E%E5%86%8Dpull%E7%84%B6%E5%90%8E%E5%86%8D%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA%E5%90%88%E5%B9%B6)
 
 ## Version 1.2.1
+<<<<<<< HEAD
+=======
+  * [在view中监听home键、菜单键和返回键，构建回调](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#009%E5%9C%A8view%E4%B8%AD%E7%9B%91%E5%90%AChome%E9%94%AE%E8%8F%9C%E5%8D%95%E9%94%AE%E5%92%8C%E8%BF%94%E5%9B%9E%E9%94%AE%E6%9E%84%E5%BB%BA%E5%9B%9E%E8%B0%83)
+  * ---可用于往WindowManager中添加view之后的监听操作；
+
+## Version 1.2.2
+  * [将光标所在代码行向上向下移动 move line up or down](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#002%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-line-up-or-down)
+  * [【Super Useful】将光标所在代码行所在的代码组向上向下移动 move statement up or down](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android_Studio_Shortcut_Keymap_Smmary.md#003super-useful%E5%B0%86%E5%85%89%E6%A0%87%E6%89%80%E5%9C%A8%E4%BB%A3%E7%A0%81%E8%A1%8C%E6%89%80%E5%9C%A8%E7%9A%84%E4%BB%A3%E7%A0%81%E7%BB%84%E5%90%91%E4%B8%8A%E5%90%91%E4%B8%8B%E7%A7%BB%E5%8A%A8-move-statement-up-or-down)
+
+## Version 1.2.3
+  * [Android 获取View在屏幕中的位置](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#010android-%E8%8E%B7%E5%8F%96view%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%AD%E7%9A%84%E4%BD%8D%E7%BD%AE)
+
+## Version 1.2.4
   * [WindowManager.LayoutParams.type属性](https://github.com/halohoop/Halohoop_Code_Schools/commit/5a7dffe69add56c11c8bc18b8a89e5ed652128b6)
 
 ## License
