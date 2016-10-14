@@ -76,6 +76,9 @@
 ## Version 1.2.5
   * [add custom dialog templete class](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#002%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6%E5%AF%B9%E8%AF%9D%E6%A1%86)
 
+## Version 1.2.6
+  * [Android WindowManager 监听返回键及home键](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%20WindowManager%20%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE%E5%8F%8Ahome%E9%94%AE.md#android-windowmanager-%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE%E5%8F%8Ahome%E9%94%AE)
+
 ## License
 
     Copyright 2016, Halohoop
