@@ -80,7 +80,10 @@
   * [Android WindowManager 监听返回键及home键](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%20WindowManager%20%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE%E5%8F%8Ahome%E9%94%AE.md#android-windowmanager-%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE%E5%8F%8Ahome%E9%94%AE)
 
 ## Version 1.2.7
-  *- [优雅的让Fragment监听返回键](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9Fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE.md#%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE)
+  * [优雅的让Fragment监听返回键](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9Fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE.md#%E4%BC%98%E9%9B%85%E7%9A%84%E8%AE%A9fragment%E7%9B%91%E5%90%AC%E8%BF%94%E5%9B%9E%E9%94%AE)
+
+## Version 1.2.8
+  * [Andorid get status bar height](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6.md#andorid%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81%E6%A0%8F%E9%AB%98%E5%BA%A6)
 
 ## License
 
