@@ -12,3 +12,5 @@
 	   //api version is lower than 23;
 	   //just need manifest permission
 	}
+	
+### see [https://developer.android.com/reference/android/provider/Settings.html#canDrawOverlays(android.content.Context)](https://developer.android.com/reference/android/provider/Settings.html#canDrawOverlays(android.content.Context))
