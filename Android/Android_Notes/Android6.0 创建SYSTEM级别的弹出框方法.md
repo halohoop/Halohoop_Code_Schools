@@ -1,4 +1,4 @@
-# Android6.0 创建TYPE_SYSTEM_ALERT级别的弹出框方法，以及需要的运行时权限
+# Android6.0 创建SYSTEM级别的弹出框方法，以及需要的运行时权限
 
 	if (Build.VERSION.SDK_INT >= 23) {
 	   if(!Settings.canDrawOverlays(this)) {
