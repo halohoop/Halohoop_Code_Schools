@@ -91,6 +91,9 @@
 ## Version 1.2.10
   * [Android画笔Paint的Xfermode效果总结](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%E7%94%BB%E7%AC%94Paint%E7%9A%84Xfermode%E6%95%88%E6%9E%9C%E6%80%BB%E7%BB%93.md#android%E7%94%BB%E7%AC%94paint%E7%9A%84xfermode%E6%95%88%E6%9E%9C%E6%80%BB%E7%BB%93)
 
+## Version 1.2.11
+  * [添加禁止滑动的ViewPager，模板代码](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#003%E7%A6%81%E6%AD%A2%E6%BB%91%E5%8A%A8%E7%9A%84viewpager)
+
 ## License
 
     Copyright 2016, Halohoop
