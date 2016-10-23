@@ -88,6 +88,9 @@
 ## Version 1.2.9
   * [Android6.0 创建TYPE_SYSTEM_ALERT级别的弹出框方法，以及需要的运行时权限](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android6.0%20%E5%88%9B%E5%BB%BATYPE_SYSTEM_ALERT%E7%BA%A7%E5%88%AB%E7%9A%84%E5%BC%B9%E5%87%BA%E6%A1%86%E6%96%B9%E6%B3%95.md#android60-%E5%88%9B%E5%BB%BAtype_system_alert%E7%BA%A7%E5%88%AB%E7%9A%84%E5%BC%B9%E5%87%BA%E6%A1%86%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E9%9C%80%E8%A6%81%E7%9A%84%E8%BF%90%E8%A1%8C%E6%97%B6%E6%9D%83%E9%99%90)
 
+## Version 1.2.10
+  * [Android画笔Paint的Xfermode效果总结](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%E7%94%BB%E7%AC%94Paint%E7%9A%84Xfermode%E6%95%88%E6%9E%9C%E6%80%BB%E7%BB%93.md#android%E7%94%BB%E7%AC%94paint%E7%9A%84xfermode%E6%95%88%E6%9E%9C%E6%80%BB%E7%BB%93)
+
 ## License
 
     Copyright 2016, Halohoop
