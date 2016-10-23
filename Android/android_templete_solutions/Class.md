@@ -8,6 +8,5 @@
 ## 002.自定义控件对话框
 * [SimpleCustomDialog.java](./classes/SimpleCustomDialog.java)
 
-<<<<<<< HEAD
 ## 003.禁止滑动的ViewPager
 * [NoScrollViewPager.java](./classes/NoScrollViewPager.java)
