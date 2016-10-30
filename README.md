@@ -94,6 +94,9 @@
 ## Version 1.2.11
   * [添加禁止滑动的ViewPager，模板代码](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#003%E7%A6%81%E6%AD%A2%E6%BB%91%E5%8A%A8%E7%9A%84viewpager)
 
+## Version 1.2.12
+  * [Andorid三行代码实现Canvas清屏](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0Canvas%E6%B8%85%E5%B1%8F.md#andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0canvas%E6%B8%85%E5%B1%8F)
+
 ## License
 
     Copyright 2016, Halohoop
