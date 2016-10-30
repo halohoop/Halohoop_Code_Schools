@@ -97,6 +97,9 @@
 ## Version 1.2.12
   * [Andorid三行代码实现Canvas清屏](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0Canvas%E6%B8%85%E5%B1%8F.md#andorid%E4%B8%89%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0canvas%E6%B8%85%E5%B1%8F)
 
+## Version 1.2.13
+  * [Andorid获取Activity方向](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96Activity%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96activity%E6%96%B9%E5%90%91)
+
 ## License
 
     Copyright 2016, Halohoop
