@@ -1,6 +1,18 @@
 # Andorid获取Activity方向
-
 通过方法：
+
+    	Configuration newConfig = getResources().getConfiguration();  
+            if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){  
+                //横屏  
+            }else if(newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){  
+                //竖屏  
+            }else if(newConfig.hardKeyboardHidden == Configuration.KEYBOARDHIDDEN_NO){  
+                //键盘没关闭。屏幕方向为横屏  
+            }else if(newConfig.hardKeyboardHidden == Configuration.KEYBOARDHIDDEN_YES){  
+                //键盘关闭。屏幕方向为竖屏  
+            }  
+
+通过方法获取固定方向的方式：
 
 	Activity.getRequestedOrientation();
 
