@@ -100,6 +100,9 @@
 ## Version 1.2.13
   * [Andorid获取Activity方向](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96Activity%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96activity%E6%96%B9%E5%90%91)
 
+## Version 1.2.14
+  * [Android规定的dp和px的换算关系](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%E8%A7%84%E5%AE%9A%E7%9A%84dp%E5%92%8Cpx%E7%9A%84%E6%8D%A2%E7%AE%97%E5%85%B3%E7%B3%BB.md#android%E8%A7%84%E5%AE%9A%E7%9A%84dp%E5%92%8Cpx%E7%9A%84%E6%8D%A2%E7%AE%97%E5%85%B3%E7%B3%BB)
+
 ## License
 
     Copyright 2016, Halohoop
