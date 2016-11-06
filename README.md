@@ -107,6 +107,9 @@
   * add java_notes new branch;
   * [add Eclipse shortcuts](https://github.com/halohoop/Halohoop_Code_Schools/blob/java_notes/Java/Java_Notes/eclipse_shortcuts.md#eclipse-shortcuts)
 
+## Version 1.3.2
+  * [Andorid获取手机旋转方向](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91)
+
 ## License
 
     Copyright 2016, Halohoop
