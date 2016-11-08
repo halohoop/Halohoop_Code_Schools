@@ -110,6 +110,9 @@
 ## Version 1.3.2
   * [Andorid获取手机旋转方向](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91.md#andorid%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BA%E6%97%8B%E8%BD%AC%E6%96%B9%E5%90%91)
 
+## Version 1.3.3
+  * [Andorid获取当前gps是否开启](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF.md#andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF)
+
 ## License
 
     Copyright 2016, Halohoop
