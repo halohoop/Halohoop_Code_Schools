@@ -113,6 +113,9 @@
 ## Version 1.3.3
   * [Andorid获取当前gps是否开启](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF.md#andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF)
 
+## Version 1.3.4
+  * [Andorid获取当前gps是否开启](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Andorid%E8%B7%B3%E8%BD%AC%E5%88%B0%E5%BC%80%E5%90%AFGPS%E7%9A%84%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2.md#andorid%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dgps%E6%98%AF%E5%90%A6%E5%BC%80%E5%90%AF)
+
 ## License
 
     Copyright 2016, Halohoop
