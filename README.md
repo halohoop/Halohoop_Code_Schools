@@ -123,7 +123,7 @@
   * [TextView的setgetTextSize单位不同](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/TextView%E7%9A%84setgetTextSize%E5%8D%95%E4%BD%8D%E4%B8%8D%E5%90%8C.md#textview%E7%9A%84setgettextsize%E5%8D%95%E4%BD%8D%E4%B8%8D%E5%90%8C)
 
 ## Version 1.3.7
-  * [使用android 调用震动的例子]()
+  * [使用android 调用震动的例子](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/%E4%BD%BF%E7%94%A8android%20%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90.md#%E4%BD%BF%E7%94%A8android-%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90)
 
 ## License
 
