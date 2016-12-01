@@ -1,5 +1,4 @@
 # android中用Spannable在TextView中设置超链接、颜色、字体
-	<?xml version="1.0" encoding="utf-8"?>
 
 昨晚研读 ApiDemo 源码至 com.example.android.apis.text.Link 类。首先，看一下其运行效果：
 
@@ -9,7 +8,7 @@
 
 ## 第一种，自动应用效果，使用 android:autolink 属性，如：
 Java代码
-   
+
         <TextView xmlns:android="http://schemas.android.com/apk/res/android"  
             android:id="@+id/text1"  
             android:layout_width="match_parent"  
