@@ -19,7 +19,8 @@ Java代码
 
 
 ## 第二种，在文本中使用 <a> 标签，如：
-Java代码   
+Java代码
+
         <string name="link_text_manual"><b>text2:</b> This is some other  
               text, with a <a href="http://www.google.com">link</a> specified  
               via an &lt;a&gt; tag.  Use a \"tel:\" URL  
