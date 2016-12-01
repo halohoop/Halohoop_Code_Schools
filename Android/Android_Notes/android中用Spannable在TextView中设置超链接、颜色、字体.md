@@ -3,7 +3,7 @@
 
 昨晚研读 ApiDemo 源码至 com.example.android.apis.text.Link 类。首先，看一下其运行效果：
 
-![spannable1](https://github.com/halohoop/Halohoop_Code_Schools/pics/spannable1.png)
+![spannable1](https://github.com/halohoop/Halohoop_Code_Schools/tree/android_notes/pics/spannable1.png)
 
 要给 TextView 加上效果，方式主要有几种：
 
@@ -64,11 +64,11 @@ Java代码
 
 看个截图就更明白了：
 
-![spannable1](https://github.com/halohoop/Halohoop_Code_Schools/pics/spannable2.png)
+![spannable2](https://github.com/halohoop/Halohoop_Code_Schools/tree/android_notes/pics/spannable2.png)
 
 对比一下
 
-![spannable1](https://github.com/halohoop/Halohoop_Code_Schools/pics/spannable3.png)
+![spannable3]https://github.com/halohoop/Halohoop_Code_Schools/tree/android_notes/pics/spannable3.png)
 
 以下转自:http://blog.csdn.net/yang_hui1986527/article/details/6776629
 在Android中，TextView是我们最常用的用来显示文本的控件。
@@ -243,4 +243,4 @@ Java代码
 
 效果预览：
 
-![spannable1](https://github.com/halohoop/Halohoop_Code_Schools/pics/spannable4.png)
+![spannable4](https://github.com/halohoop/Halohoop_Code_Schools/tree/android_notes/pics/spannable4.png)
