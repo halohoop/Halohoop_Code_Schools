@@ -8,7 +8,8 @@
 要给 TextView 加上效果，方式主要有几种：
 
 ## 第一种，自动应用效果，使用 android:autolink 属性，如：
-Java代码   
+Java代码
+   
         <TextView xmlns:android="http://schemas.android.com/apk/res/android"  
             android:id="@+id/text1"  
             android:layout_width="match_parent"  
