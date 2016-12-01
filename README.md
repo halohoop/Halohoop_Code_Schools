@@ -125,6 +125,9 @@
 ## Version 1.3.7
   * [使用android 调用震动的例子](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/%E4%BD%BF%E7%94%A8android%20%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90.md#%E4%BD%BF%E7%94%A8android-%E8%B0%83%E7%94%A8%E9%9C%87%E5%8A%A8%E7%9A%84%E4%BE%8B%E5%AD%90)
 
+## Version 1.3.8
+  * [android中用Spannable在TextView中设置超链接、颜色、字体](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/android%E4%B8%AD%E7%94%A8Spannable%E5%9C%A8TextView%E4%B8%AD%E8%AE%BE%E7%BD%AE%E8%B6%85%E9%93%BE%E6%8E%A5%E3%80%81%E9%A2%9C%E8%89%B2%E3%80%81%E5%AD%97%E4%BD%93.md#android%E4%B8%AD%E7%94%A8spannable%E5%9C%A8textview%E4%B8%AD%E8%AE%BE%E7%BD%AE%E8%B6%85%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2%E5%AD%97%E4%BD%93)
+
 ## License
 
     Copyright 2016, Halohoop
