@@ -128,6 +128,9 @@
 ## Version 1.3.8
   * [android中用Spannable在TextView中设置超链接、颜色、字体](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/android%E4%B8%AD%E7%94%A8Spannable%E5%9C%A8TextView%E4%B8%AD%E8%AE%BE%E7%BD%AE%E8%B6%85%E9%93%BE%E6%8E%A5%E3%80%81%E9%A2%9C%E8%89%B2%E3%80%81%E5%AD%97%E4%BD%93.md#android%E4%B8%AD%E7%94%A8spannable%E5%9C%A8textview%E4%B8%AD%E8%AE%BE%E7%BD%AE%E8%B6%85%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2%E5%AD%97%E4%BD%93)
 
+## Version 1.3.9
+  * [获取当前手机环境的国家语言]()
+
 ## License
 
     Copyright 2016, Halohoop
