@@ -5,14 +5,14 @@
 	//而安卓传感器返回给我们的值是0表示北，±180表示南，+90表示东，-90表示西，
 	//这些取值有时候很不适合我们后续的操作，因此我们做一个转换，将0表示北，90表示东，180表示南，270表示西；
 	//以下方法就是起到转换的作用的，只需将orien[0]传进来即可；
-	
+
 	public static float normalizeDegree(float paramFloat) {
         return (720.0F + paramFloat) % 360.0F;
     }
 
 ## 打开应用市场指定搜索某个应用
 
-    
+
 	/**
 	 * 使用隐式意图打开手机中原有应用市场
 	 * 并且搜索传进来的包名对应的软件
@@ -32,3 +32,19 @@
         }
         return true;
     }
+
+## 获取当前手机环境的国家语言
+
+			/*
+			 * if current language equals the param；
+			 * such as LangUtils.isCurrentLanguageEquals("ru")//equals Russian value-ru
+			 */
+			public static boolean isCurrentLanguageEquals(String langStr) {
+					Locale l = Locale.getDefault();
+					String language = l.getLanguage();
+			//        String country = l.getCountry().toLowerCase();
+					if (langStr != null && langStr.equalsIgnoreCase(language)) {
+							return true;
+					}
+					return false;
+			}
