@@ -161,9 +161,6 @@
 
 #### dumpsys statusbar | grep notification=Notification 
 
-
-
-
 ## 四、参考资料
 [Dumpsys](https://source.android.com/devices/tech/input/dumpsys.html) （官方文档）
 
@@ -172,3 +169,131 @@
 [android中dumpsys函数介绍与使用 （代码分析）](http://su1216.iteye.com/blog/1729648)
 
 来自：[http://blog.csdn.net/androiddevelop/article/details/37689339](http://blog.csdn.net/androiddevelop/article/details/37689339)
+
+## 补充：
+
+该命令用于打印出当前系统信息，默认打印出设备中所有service的信息，可以在命令后面加指定的service name.
+有两种方法可以查看service list:
+
+### 1. adb shell dumpsys
+
+输出信息的开始部分就是所有运行的service，如下：
+
+    Currently running services:
+    SurfaceFlinger:
+    accessibility:
+    account:
+    activity:
+    alarm:
+    appwidget:
+    audio:
+    backup:
+    battery:
+    batteryinfo:
+    clipboard:
+    connectivity:
+    content:
+    cpuinfo:
+    device_policy:
+    devicestoragemonitor:
+    diskstats:
+    dropbox:
+    entropy:
+    hardware:
+    input_method:
+    iphonesubinfo:
+    isms:
+    location:
+    media.audio_flinger:
+    media.audio_policy:
+    media.camera:
+    media.player:
+    meminfo:
+    mount:
+    netstat:
+    network_management:
+    notification:
+    package:
+    permission:
+    phone:
+    power:
+    search:
+    sensorservice:
+    simphonebook:
+    statusbar:
+    telephony.registry:
+    throttle:
+    uimode:
+    usagestats:
+     vibrator:
+    wallpaper:
+    wifi:
+    window:
+
+### 2. adb shell service list
+
+输出结果如下：
+
+Found 49 services:
+
+    phone: [com.Android.internal.telephony.ITelephony]
+    iphonesubinfo: [com.android.internal.telephony.IPhoneSubInfo]
+    simphonebook: [com.android.internal.telephony.IIccPhoneBook]
+    isms: [com.android.internal.telephony.ISms]
+    diskstats: []
+    appwidget: [com.android.internal.appwidget.IAppWidgetService]
+    backup: [android.app.backup.IBackupManager]
+    uimode: [android.app.IUiModeManager]
+    audio: [android.media.IAudioService]
+    wallpaper: [android.app.IWallpaperManager]
+    dropbox: [com.android.internal.os.IDropBoxManagerService]
+    search: [android.app.ISearchManager]
+    location: [android.location.ILocationManager]
+    devicestoragemonitor: []
+    notification: [android.app.INotificationManager]
+    mount: [IMountService]
+    accessibility: [android.view.accessibility.IAccessibilityManager]
+    throttle: [android.NET.IThrottleManager]
+    connectivity: [android.Net.IConnectivityManager]
+    wifi: [android.net.wifi.IWifiManager]
+    network_management: [android.os.INetworkManagementService]
+    netstat: [android.os.INetStatService]
+    input_method: [com.android.internal.view.IInputMethodManager]
+    clipboard: [android.text.IClipboard]
+    statusbar: [com.android.internal.statusbar.IStatusBarService]
+    device_policy: [android.app.admin.IDevicePolicyManager]
+    window: [android.view.IWindowManager]
+    alarm: [android.app.IAlarmManager]
+    vibrator: [android.os.IVibratorService]
+    hardware: [android.os.IHardwareService]
+    battery: []
+    content: [android.content.IContentService]
+    account: [android.accounts.IAccountManager]
+    permission: [android.os.IPermissionController]
+    cpuinfo: []
+    meminfo: []
+    activity: [android.app.IActivityManager]
+    package: [android.content.pm.IPackageManager]
+    telephony.registry: [com.android.internal.telephony.ITelephonyRegistry]
+    usagestats: [com.android.internal.app.IUsageStats]
+    batteryinfo: [com.android.internal.app.IBatteryStats]
+    power: [android.os.IPowerManager]
+    entropy: []
+    sensorservice: [android.gui.SensorServer]
+    SurfaceFlinger: [android.ui.ISurfaceComposer]
+    media.audio_policy: [android.media.IAudioPolicyService]
+    media.camera: [android.hardware.ICameraService]
+    media.player: [android.media.IMediaPlayerService]
+    media.audio_flinger: [android.media.IAudioFlinger]
+
+查询到运行的system service后，就可以在dumpsys后面加上service的名字，查看指定的service信息。
+
+    adb shell dumpsys activity
+    adb shell dumpsys cpuinfo
+    adb shell dumpsys battery
+    adb shell dumpsys window（最后部分可以看到分辨率的信息）
+
+有些service能够接收额外的参数，我们可以使用-h查看帮助信息。
+
+    adb shell dumpsys package -h
+    adb shell dumpsys activity -h
