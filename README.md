@@ -131,6 +131,9 @@
 ## Version 1.3.9
   * [获取当前手机环境的国家语言](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%89%8B%E6%9C%BA%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9B%BD%E5%AE%B6%E8%AF%AD%E8%A8%80)
 
+## Version 1.3.10
+  * [Android 性能分析工具dumpsys的使用](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%20%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8.md#android-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8)
+
 ## License
 
     Copyright 2016, Halohoop
