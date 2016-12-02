@@ -134,6 +134,9 @@
 ## Version 1.3.10
   * [Android 性能分析工具dumpsys的使用](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%20%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8.md#android-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8)
 
+## Version 1.3.11
+  *[七个你无法忽视的Git使用技巧](https://github.com/halohoop/Halohoop_Code_Schools/blob/git_notes/Git/Git_Notes/%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md#%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)
+
 ## License
 
     Copyright 2016, Halohoop
