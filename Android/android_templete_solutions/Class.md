@@ -15,15 +15,15 @@
 * [RecyclerViewDivider](./classes/RecyclerViewDivider)
 * 使用:
 
-    ItemDecoration mDecoration1 = new SpaceDividerDecoration(10);//just space
-    ItemDecoration mDecoration2 = new VerticalDividerDecoration.Builder
+        ItemDecoration mDecoration1 = new SpaceDividerDecoration(10);//just space
+        ItemDecoration mDecoration2 = new VerticalDividerDecoration.Builder
                             ().showStart(true).showEnd(true).paddingLeft(50).paddingRight(20)
                             .color(Color.BLUE).size(10).build();
                     rcv.removeItemDecoration(mDecoration1);
-    ItemDecoration mDecoration3 = new VerticalDividerDecoration
+        ItemDecoration mDecoration3 = new VerticalDividerDecoration
                             .Builder().showStart(true).showEnd(true).paddingLeft(100)
                             .paddingRight(100).color(Color.parseColor("#33ff0000")).size(50)
                             .build();
-    RecyclerView实例.addItemDecoration(mDecoration1);
-    RecyclerView实例.addItemDecoration(mDecoration2);
-    RecyclerView实例.addItemDecoration(mDecoration3);
+        RecyclerView实例.addItemDecoration(mDecoration1);
+        RecyclerView实例.addItemDecoration(mDecoration2);
+        RecyclerView实例.addItemDecoration(mDecoration3);
