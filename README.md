@@ -140,6 +140,9 @@
 ## Version 1.3.12
   *[Android中string.xml中%1$s、%1$d、xliff等的用法](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/android%E4%B8%ADstring.xml%E4%B8%AD%251%24s%E3%80%81%251%24d%E3%80%81xliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95.md#android%E4%B8%ADstringxml%E4%B8%AD1s1dxliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95)
 
+## Version 1.3.13
+  *[RecyclerView分隔线](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#004recyclerview%E5%88%86%E9%9A%94%E7%BA%BF)
+
 ## License
 
     Copyright 2016, Halohoop
