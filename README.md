@@ -135,13 +135,13 @@
   * [Android 性能分析工具dumpsys的使用](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%20%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8.md#android-%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7dumpsys%E7%9A%84%E4%BD%BF%E7%94%A8)
 
 ## Version 1.3.11
-  *[七个你无法忽视的Git使用技巧](https://github.com/halohoop/Halohoop_Code_Schools/blob/git_notes/Git/Git_Notes/%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md#%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)
+  * [七个你无法忽视的Git使用技巧](https://github.com/halohoop/Halohoop_Code_Schools/blob/git_notes/Git/Git_Notes/%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md#%E4%B8%83%E4%B8%AA%E4%BD%A0%E6%97%A0%E6%B3%95%E5%BF%BD%E8%A7%86%E7%9A%84git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)
 
 ## Version 1.3.12
-  *[Android中string.xml中%1$s、%1$d、xliff等的用法](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/android%E4%B8%ADstring.xml%E4%B8%AD%251%24s%E3%80%81%251%24d%E3%80%81xliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95.md#android%E4%B8%ADstringxml%E4%B8%AD1s1dxliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95)
+  * [Android中string.xml中%1$s、%1$d、xliff等的用法](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/android%E4%B8%ADstring.xml%E4%B8%AD%251%24s%E3%80%81%251%24d%E3%80%81xliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95.md#android%E4%B8%ADstringxml%E4%B8%AD1s1dxliff%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95)
 
 ## Version 1.3.13
-  *[RecyclerView分隔线](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#004recyclerview%E5%88%86%E9%9A%94%E7%BA%BF)
+  * [RecyclerView分隔线](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#004recyclerview%E5%88%86%E9%9A%94%E7%BA%BF)
 
 ## License
 
