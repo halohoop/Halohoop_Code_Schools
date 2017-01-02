@@ -143,6 +143,9 @@
 ## Version 1.3.13
   * [RecyclerView分隔线](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#004recyclerview%E5%88%86%E9%9A%94%E7%BA%BF)
 
+## Version 1.3.14
+  * [单例模式](https://github.com/halohoop/DCLSingleInstanceDemo)
+
 ## License
 
     Copyright 2016, Halohoop
