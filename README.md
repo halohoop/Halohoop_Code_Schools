@@ -146,6 +146,9 @@
 ## Version 1.3.14
   * [单例模式](https://github.com/halohoop/DCLSingleInstanceDemo)
 
+## Version 1.3.15
+  * [Android各国语言对照表](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_notes/Android/Android_Notes/Android%E5%90%84%E5%9B%BD%E8%AF%AD%E8%A8%80%E5%AF%B9%E7%85%A7%E8%A1%A8.md#android%E5%90%84%E5%9B%BD%E8%AF%AD%E8%A8%80%E5%AF%B9%E7%85%A7%E8%A1%A8)
+
 ## License
 
     Copyright 2016, Halohoop
