@@ -48,3 +48,25 @@
 					}
 					return false;
 			}
+
+## Android源码中通话Dialer模块PhoneFavoriteListView类的获取当前view的截图
+
+			private Bitmap createDraggedChildBitmap(View view) {
+	        view.setDrawingCacheEnabled(true);
+	        final Bitmap cache = view.getDrawingCache();
+
+	        Bitmap bitmap = null;
+	        if (cache != null) {
+	            try {
+	                bitmap = cache.copy(Bitmap.Config.ARGB_8888, false);
+	            } catch (final OutOfMemoryError e) {
+	                Log.w(LOG_TAG, "Failed to copy bitmap from Drawing cache", e);
+	                bitmap = null;
+	            }
+	        }
+
+	        view.destroyDrawingCache();
+	        view.setDrawingCacheEnabled(false);
+
+	        return bitmap;
+	    }
