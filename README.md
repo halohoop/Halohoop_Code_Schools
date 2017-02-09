@@ -155,6 +155,9 @@
 ## Version 1.3.16
   * [Android源码中通话Dialer模块PhoneFavoriteListView类的获取当前view的截图](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods.md#android%E6%BA%90%E7%A0%81%E4%B8%AD%E9%80%9A%E8%AF%9Ddialer%E6%A8%A1%E5%9D%97phonefavoritelistview%E7%B1%BB%E7%9A%84%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8Dview%E7%9A%84%E6%88%AA%E5%9B%BE)
 
+## Version 1.3.17
+  * [Android通话模块的动画工具类 AnimUtils.java](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#005android%E9%80%9A%E8%AF%9D%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8A%A8%E7%94%BB%E5%B7%A5%E5%85%B7%E7%B1%BB-animutilsjava)
+
 ## License
 
     Copyright 2016, Halohoop
