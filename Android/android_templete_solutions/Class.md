@@ -12,7 +12,7 @@
 * [NoScrollViewPager.java](./classes/NoScrollViewPager.java)
 
 ## 004.RecyclerView分隔线
-* [RecyclerViewDivider](./classes/RecyclerViewDivider)
+* [RecyclerViewDivider](./classes/RecyclerViewDivider/)
 * 使用:
 
         ItemDecoration mDecoration1 = new SpaceDividerDecoration(10);//just space
@@ -27,3 +27,6 @@
         RecyclerView实例.addItemDecoration(mDecoration1);
         RecyclerView实例.addItemDecoration(mDecoration2);
         RecyclerView实例.addItemDecoration(mDecoration3);
+
+## 005.Android通话模块的动画工具类 AnimUtils.java
+* [AnimUtils.java](./classes/AnimUtils.java)
