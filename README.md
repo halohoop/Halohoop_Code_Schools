@@ -158,6 +158,9 @@
 ## Version 1.3.17
   * [Android通话模块的动画工具类 AnimUtils.java](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#005android%E9%80%9A%E8%AF%9D%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8A%A8%E7%94%BB%E5%B7%A5%E5%85%B7%E7%B1%BB-animutilsjava)
 
+## Version 1.4.1
+  * add new module named Android Studio Useful Plugins.
+
 ## License
 
     Copyright 2016, Halohoop
