@@ -159,7 +159,10 @@
   * [Android通话模块的动画工具类 AnimUtils.java](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#005android%E9%80%9A%E8%AF%9D%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8A%A8%E7%94%BB%E5%B7%A5%E5%85%B7%E7%B1%BB-animutilsjava)
 
 ## Version 1.4.1
-  * add new module named Android Studio Useful Plugins.
+  * [add new module named Android Studio Useful Plugins](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#011android-%E5%AE%98%E6%96%B9demotextview%E8%AE%BE%E7%BD%AE%E5%AF%8C%E6%96%87%E6%9C%AC%E7%AE%80%E5%8D%95%E4%B8%80%E7%9C%BC%E5%B0%B1%E6%87%82)
+
+## Version 1.4.2
+  + Android 官方demo，TextView设置富文本，简单一眼就懂.
 
 ## License
 
