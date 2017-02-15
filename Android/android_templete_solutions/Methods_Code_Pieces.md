@@ -306,3 +306,52 @@ getLeft , getTop, getBottom, getRight,  这一组是获取相对在它父亲布�
          */
         textViewSpan.setMovementMethod(LinkMovementMethod.getInstance());
         // END_INCLUDE(text_spannable)
+
+## 012.android.support.v4.widget.DrawerLayout使用方法
+1.定义一个xml布局文件DrawerLayout，以DrawerLayout作为根布局；
+2.In activity,fvb it，然后按照以下步骤：
+2.1.对想要变成拖出的控件设置：android:layout_gravity="start"
+2.2.设置阴影，资源一般使用点九图
+
+        // set a custom shadow that overlays the main content when the drawer opens
+        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+
+2.3.设置ActionBar支持drawer
+
+        // enable ActionBar app icon to behave as action to toggle nav drawer
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
+
+2.4.新建drawer开关的回调
+
+        // ActionBarDrawerToggle ties together the the proper interactions
+        // between the sliding drawer and the action bar app icon
+        mDrawerToggle = new ActionBarDrawerToggle(
+                this,                  /* host Activity */
+                mDrawerLayout,         /* DrawerLayout object */
+                R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
+                R.string.drawer_open,  /* "open drawer" description for accessibility */
+                R.string.drawer_close  /* "close drawer" description for accessibility */
+        ) {
+            public void onDrawerClosed(View view) {
+                getActionBar().setTitle(mTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+
+            public void onDrawerOpened(View drawerView) {
+                getActionBar().setTitle(mDrawerTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+        };
+
+2.5.设置回调
+
+    mDrawerLayout.setDrawerListener(mDrawerToggle);
+    //mDrawerLayout.addDrawerListener(mDrawerToggle);
+
+2.6.通过api---DrawerLayout.isDrawerOpen获取是否打开；
+
+
+
+
+
