@@ -164,6 +164,9 @@
 ## Version 1.4.2
   + Android 官方demo，TextView设置富文本，简单一眼就懂.
 
+## Version 1.4.3
+  + [android.support.v4.widget.DrawerLayout使用方法](https://github.com/halohoop/Halohoop_Code_Schools/blob/android_templete_solutions/Android/android_templete_solutions/Methods_Code_Pieces.md#012androidsupportv4widgetdrawerlayout%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
+
 ## License
 
     Copyright 2016, Halohoop
